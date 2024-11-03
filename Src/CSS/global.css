@@ -1,0 +1,147 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-bottom: 15px;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  header {
+    text-align: top;
+    padding-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  button[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #357abd;
+  }
+  
+  /* Tabela de alunos */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #4a90e2;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f4f7f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6f0ff;
+  }
+  
+  button {
+    padding: 6px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button.edit {
+    background-color: #ffa500;
+    color: #fff;
+  }
+  
+  button.delete {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  
