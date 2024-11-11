@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -86,8 +86,7 @@
   button[type="submit"]:hover {
     background-color: #357abd;
   }
-  
-  /* Tabela de alunos */
+
   table {
     width: 100%;
     border-collapse: collapse;
@@ -136,8 +135,7 @@
     background-color: #d9534f;
     color: #fff;
   }
-  
-  /* Rodapé */
+
   footer {
     text-align: center;
     font-size: 0.9em;
